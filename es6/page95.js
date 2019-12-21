@@ -38,3 +38,11 @@ console.log(a4[1]["hardness"]);
 sungshin07();
 console.log(a5[a5.length - 1]);
 
+//3.19.1 Converting to Numbers
+console.log("Converting to Numbers");
+
+const numStr = "69";
+const num = Number(numStr);
+console.log(typeof(num));
+console.log(num);
+
