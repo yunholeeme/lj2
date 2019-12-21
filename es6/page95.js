@@ -32,6 +32,7 @@ const sungshin07 = (x) => {
     }
 };
 
+console.log(a4["Diamod"].hardness);
 console.log(sungshin07());
 console.log(a5.length);
 
