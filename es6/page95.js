@@ -81,4 +81,5 @@ const e = 11;
 //     e = 5;
 //     console.log(e);
 // }));
+change(e);
 console.log(e);
