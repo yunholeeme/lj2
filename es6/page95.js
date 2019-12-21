@@ -33,7 +33,7 @@ const sungshin07 = () => {
     }
 };
 
-console.log(a4["name"]);
+console.log(a4[0]["hardness"]);
 console.log(sungshin07());
 console.log(a5.length);
 
