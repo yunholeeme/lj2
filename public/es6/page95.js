@@ -83,3 +83,8 @@ let e = 11;
 // }));
 change(e);
 console.log(e);
+
+let o = {a:1};
+let p = o;
+o["a"] = 5;
+console.log(p); // {a:5}
