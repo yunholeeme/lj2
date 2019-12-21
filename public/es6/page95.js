@@ -62,3 +62,6 @@ console.log(ts);
 const b1 = true;
 const n = b1 ? 1:0;
 console.log(`b1 = true : ${n}`);
+
+const arr2 = [1, true, "hello"];
+console.log(arr2.toString());     // "1, true, hello"
