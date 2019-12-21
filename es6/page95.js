@@ -54,3 +54,7 @@ const arr1 = [a, b, c];
 for (let arr of arr1) {
     console.log(arr);
 }
+
+const d = new Date();   // current date
+const ts = d.valueOf(); // UTC 
+console.log(ts);
