@@ -94,5 +94,5 @@ let j = m;
 console.log(j === m);
 m = {a:2};
 console.log(j === m);
-console.log(p);
+console.log(j);
 
