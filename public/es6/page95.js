@@ -58,3 +58,7 @@ for (let arr of arr1) {
 const d = new Date();   // current date
 const ts = d.valueOf(); // UTC 
 console.log(ts);
+
+const b1 = true;
+const n = b1 ? 1:0;
+console.log(`b1 = true : ${n}`);
