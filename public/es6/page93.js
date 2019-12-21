@@ -21,7 +21,10 @@ const sam3 = {
 
 sam1.age;
 sam2.name;
+sam3.speak = () => "Meow!";
+
 console.log(sam3.classification.family);
 console.log(sam3.classification['family']);
 console.log(sam3['classification'].family);
 console.log(sam3['classification']["family"]);
+console.log(sam3.speak());
