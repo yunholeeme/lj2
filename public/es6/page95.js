@@ -46,3 +46,11 @@ const num = Number(numStr);
 console.log(typeof(num));
 console.log(num);
 
+const a = parseInt("16 girs", 10);
+const b = parseInt("3a", 16);
+const c = parseFloat("15.5 kph");
+
+const arr1 = [a, b, c];
+for (let arr of arr1) {
+    console.log(arr);
+}
