@@ -85,6 +85,14 @@ change(e);
 console.log(e);
 
 let o = {a:1};
-let p = o;
+let p = o;      // 이제 p는 o가 '가리키고 있는 것'을 가리킵니다.
 o["a"] = 5;
 console.log(p); // {a:5}
+
+let m = {a:1};
+let j = m;
+console.log(j === m);
+m = {a:2};
+console.log(j === m);
+console.log(p);
+
