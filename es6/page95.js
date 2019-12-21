@@ -75,7 +75,8 @@ console.log(b2, b3);
 
 
 const e = 7;
-console.log((function (e){
-    e = 5;
+console.log((function (x2){
+    x2 = 5;
+
 }));
 console.log(e);
