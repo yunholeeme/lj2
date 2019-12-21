@@ -70,3 +70,12 @@ const n1 = 1;    // truthy
 const b2 = !n;  // false
 const b3 = !!n; // true
 console.log(b2, b3);
+
+
+
+
+const e = 7;
+console.log((function (e){
+    e = 5;
+}));
+console.log(e);
