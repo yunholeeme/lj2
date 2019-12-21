@@ -22,6 +22,7 @@ const a5 = [
     ["💛", "💛", "💛"],
     ["💛", "💛", "💛"],
     ["💛", "💛", "💛"],
+    ["🛑", "💛🎉", "💛"],
 ];
 
 console.log(a2[1]);
@@ -35,5 +36,5 @@ const sungshin07 = () => {
 
 console.log(a4[1]["hardness"]);
 sungshin07();
-console.log(a5[1]);
+console.log(a5[a5.length - 1]);
 
