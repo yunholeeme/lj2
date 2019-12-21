@@ -65,3 +65,8 @@ console.log(`b1 = true : ${n}`);
 
 const arr2 = [1, true, "hello"];
 console.log(arr2.toString());     // "1, true, hello"
+
+const n = 1;    // truthy
+const b2 = !n;  // false
+const b3 = !!n; // true
+console.log(b2, b3);
