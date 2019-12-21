@@ -15,7 +15,7 @@ const sam3 = {
         family: 'Felidae',
         subfamily: 'Felinae',
         genus: 'Felis',
-        species: 'catus',
+        species: "catus",
     },
 };
 
@@ -24,3 +24,4 @@ sam2.name;
 console.log(sam3.classification.family);
 console.log(sam3.classification['family']);
 console.log(sam3['classification'].family);
+console.log(sam3['classification']["family"]);
