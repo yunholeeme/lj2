@@ -71,12 +71,12 @@ const b2 = !n;  // false
 const b3 = !!n; // true
 console.log(b2, b3);
 
-function change (e) {
+function change (x2) {
     e = 22;
     console.log(e);
 }
 
-const e = 11;
+let e = 11;
 // console.log((function (x2){
 //     e = 5;
 //     console.log(e);
