@@ -26,8 +26,9 @@ const a5 = [
 
 console.log(a2[1]);
 console.log(a3[1]);
-const sungshin07 = (x) => {
-    for (let s of x) {
+
+const sungshin07 = () => {
+    for (let s of a3) {
         console.log(s);
     }
 };
