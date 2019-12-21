@@ -71,7 +71,7 @@ const b2 = !n;  // false
 const b3 = !!n; // true
 console.log(b2, b3);
 
-function change (x2) {
+function change (e) {
     e = 22;
     console.log(e);
 }
