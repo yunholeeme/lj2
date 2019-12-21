@@ -96,11 +96,11 @@ m = {a:2};
 console.log(j === m);
 console.log(j);
 
-function change_v (f) {
+function change_v (v) {
     v.a = 777;
 }
 
 let v = {a:1};
-change_v(f);
+change_v(v);
 console.log(v);
 
