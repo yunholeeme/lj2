@@ -61,7 +61,7 @@ while (funds > 1 && funds < 100) {
     funds = funds - totalBet;
     console.log(bets);
     console.log(Object.keys(bets));
-    console.log(Object.keys(bets).map(x => `${x}`));
+    console.log(Object.keys(bets).map(x => `#${x}`));
     console.log('\tbets: ' + 
         Object.keys(bets).map(face => `${face}:${bets[face]}pence`).join(',') +
          ` (total: ${totalBet} pence)`);
