@@ -55,3 +55,4 @@ if (totalBet === 7) {
 
 funds = funds - totalBet;
 console.log(funds);
+console.log(bets);
