@@ -44,5 +44,6 @@ if (totalBet === 7) {
 } else {
     // distribute total bet
 }
+
 funds = funds - totalBet;
 console.log(funds);
