@@ -10,13 +10,15 @@ let funds = 50;     // start condition
 // }
 
 console.log("start");
-while (     funds > 1 &&            funds < 100)
-
-
-console.log(funds);
+while (     funds > 1 &&            funds < 100) {
+    console.log(funds);
 
 
 
 
-funds = funds + 2;
+    funds = funds + 2;
+}
+
+
+
 console.log(funds);
