@@ -40,6 +40,7 @@ let totalBet = rand(1, funds);
 if (totalBet === 7) {
     totalBet = funds;
     bets.heart = totalBet;
+    console.log(`bets.heart : ${bets.heart}`);
 } else {
     // distribute total bet
 }
