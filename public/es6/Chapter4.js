@@ -6,4 +6,5 @@ while (funds > 1 && funds < 100) {
     // roll dices.
 
     // get money
+    console.log(funds);
 }
