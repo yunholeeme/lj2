@@ -33,4 +33,4 @@ function randFace() {
     return ["crown", "anchor", "heart", "spade", "club", "diamond"][rand(0, 5)];
 }
 
-randFace();
+console.log(randFace());
