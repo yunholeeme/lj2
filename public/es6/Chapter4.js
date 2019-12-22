@@ -19,4 +19,4 @@ while (     funds > 1 &&            funds < 100)
 
 
 funds = funds + 2;
-console.log("end");
+console.log(funds);
