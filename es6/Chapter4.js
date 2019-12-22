@@ -13,7 +13,7 @@ console.log("start");
 while (     funds > 1 &&            funds < 100)
 
 
-
+console.log(funds);
 
 
 
