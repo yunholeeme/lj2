@@ -33,4 +33,15 @@ function randFace() {
     return ["crown", "anchor", "heart", "spade", "club", "diamond"][rand(0, 5)];
 }
 
-console.log(randFace());
+// console.log(randFace());
+
+const bets = { crown: 0, anchor: 0, heart: 0, spade: 0, club: 0, diamond: 0};
+let totalBet = rand(1, funds);
+if (totalBet === 7) {
+    totalBet = funds;
+    bets.heart = totalBet;
+} else {
+    // distribute total bet
+}
+funds = funds - totalBet;
+console.log(funds);
