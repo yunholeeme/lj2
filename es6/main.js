@@ -62,7 +62,7 @@ $(document).ready(function() {
 
     const body = document.querySelector("body");
     const title1 = document.getElementsByTagName("h1");
-    const IMG_NUM = 2;
+    const IMG_NUM = 5;
     
     title1[0].innerText = "Click this";
     title1[0].addEventListener("click", drawImage);
