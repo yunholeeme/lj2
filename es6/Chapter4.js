@@ -43,7 +43,7 @@ while (funds > 1 && funds < 100) {
     // place bets
     const bets = { crown: 0, anchor: 0, heart: 0, spade: 0, club: 0, diamond: 0};
     let totalBet = rand(1, funds);
-    if (new Date().getDay ===1 ) {
+    if (new Date().getDay === 1 ) {
         totalBet = 1;
     } else if (funds === 7) {
         totalBet = funds;
