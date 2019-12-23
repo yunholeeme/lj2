@@ -45,7 +45,7 @@ while (funds > 1 && funds < 100) {
     let totalBet = rand(1, funds);
 
     console.log(new Date().getDay());
-    if (new Date().getDay === 0 ) {
+    if (new Date().getDay() === 1 ) {
         totalBet = 1;
     } else if (funds === 7) {
         totalBet = funds;
