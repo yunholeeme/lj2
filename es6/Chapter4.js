@@ -56,6 +56,9 @@ while (funds > 1 && funds < 100) {
     case 21:
         totalBet = 21;
         break;
+    default:
+        console.log("No superstition here! switch");
+        break;
     }
     console.log(totalBet);
     console.log(new Date().getDay());
@@ -123,3 +126,8 @@ for (let x=0.2; x < 3.0; x += 0.2)  // increment using noninteger
 // for (; !player.isBroke;)
 //     console.log("Still playing!");  // use an object property as conditional
 
+const player = {name:'leeyunho', rank:'Midshipman', age: 27};
+for (let prop in player) {
+    if(!player.hasOwnProperty(prop)) continue;
+    console.log(prop + ': ' + player[prop]);
+}
