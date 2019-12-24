@@ -101,3 +101,4 @@ console.log(typeof(s));
 console.log(s.length);
 for (; s.length<10; s = ' ' + s);
 console.log(s.length);
+console.log(s);
