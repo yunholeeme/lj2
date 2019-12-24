@@ -56,6 +56,7 @@ while (funds > 1 && funds < 100) {
         totalBet = 21;
         break;
     }
+    console.log(totalBet);
     console.log(new Date().getDay());
     if (new Date().getDay() === 1 ) {
         totalBet = 1;
