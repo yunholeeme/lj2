@@ -44,6 +44,20 @@ while (funds > 1 && funds < 100) {
     const bets = { crown: 0, anchor: 0, heart: 0, spade: 0, club: 0, diamond: 0};
     let totalBet = rand(1, funds);
 
+    switch(totalBet) {
+    case 7:
+        totalBet = funds;
+        break;
+    case 11:
+        totalBet = 0;
+        break;
+    case 13:
+        totalBet = 0;
+        break;
+    case 21:
+        totalBet = 21;
+        break;
+    }
     console.log(new Date().getDay());
     if (new Date().getDay() === 1 ) {
         totalBet = 1;
@@ -106,5 +120,6 @@ console.log(s);
 for (let x=0.2; x < 3.0; x += 0.2)  // increment using noninteger
     console.log(x);
 
-for (; !player.isBroke;)
-    console.log("Still playing!");
+// for (; !player.isBroke;)
+//     console.log("Still playing!");  // use an object property as conditional
+
