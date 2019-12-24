@@ -100,3 +100,4 @@ let s = "3";    // 숫자가 들어있는 문자열
 console.log(typeof(s));
 console.log(s.length);
 for (; s.length<10; s = ' ' + s);
+console.log(s.length);
