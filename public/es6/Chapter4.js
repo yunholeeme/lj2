@@ -99,6 +99,9 @@ for (let temp, i=0, j=1; j<30; temp = i, i = j, j = i + temp)
 let s = "3";    // 숫자가 들어있는 문자열
 console.log(typeof(s));
 console.log(s.length);
-for (; s.length<10; s = '1' + s);
+for (; s.length<10; s = ' ' + s);
 console.log(s.length);
 console.log(s);
+
+for (let x=0.2; x < 3.0; x += 0.2)
+    console.log(x);
