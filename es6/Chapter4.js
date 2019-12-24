@@ -48,8 +48,9 @@ while (funds > 1 && funds < 100) {
     case 7:
         totalBet = funds;
         break;
-    case 11:
     case 13:
+        funds = funds - 1;  // give 1 pence to charity!
+    case 11:
         totalBet = 0;
         break;
     case 21:
