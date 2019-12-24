@@ -92,3 +92,5 @@ while (funds > 1 && funds < 100) {
 }
 console.log(`\tending funds: ${funds}`);
 
+for (let temp, i=0, j=1; j<30; temp = i, i = j, j = i + temp)
+    console.log(j);
